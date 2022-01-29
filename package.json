@@ -1,0 +1,21 @@
+{
+  "name": "api-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prisma": "^3.8.1",
+    "sucrase": "^3.20.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.8.1",
+    "express": "^4.17.2"
+  }
+}
